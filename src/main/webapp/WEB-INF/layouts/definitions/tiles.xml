@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="header" template="/WEB-INF/layouts/templete/header.jsp">
+        <put-attribute name="titolo" value=""/>
+        <put-attribute name="content" value=""/>
+        <put-attribute name="footer" value="/WEB-INF/layouts/templete/footer.jsp"/>
+    </definition>
+    <definition name="index" extends="header">
+        <put-attribute name="titolo" value=""/>
+        <put-attribute name="content" value="/WEB-INF/view/index.jsp"/>
+    </definition>
+    <definition name="profile" extends="header">
+        <put-attribute name="titolo" value=""/>
+        <put-attribute name="content" value="/WEB-INF/view/profile.jsp"/>
+    </definition>
+    <definition name="cars" extends="header">
+        <put-attribute name="titolo" value=""/>
+        <put-attribute name="content" value="/WEB-INF/view/cars.jsp"/>
+    </definition>
+    <definition name="newUser" extends="header">
+        <put-attribute name="titolo" value=""/>
+        <put-attribute name="content" value="/WEB-INF/view/newUser.jsp"/>
+    </definition>
+    <definition name="carsAvailable" extends="header">
+        <put-attribute name="titolo" value=""/>
+        <put-attribute name="content" value="/WEB-INF/view/availableCars.jsp"/>
+    </definition>
+    <definition name="newCar" extends="header">
+        <put-attribute name="titolo" value=""/>
+        <put-attribute name="content" value="/WEB-INF/view/newCar.jsp"/>
+    </definition>
+</tiles-definitions>
+
